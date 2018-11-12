@@ -1,0 +1,102 @@
+a {
+	text-decoration: none;
+	font-family: Verdana;
+}
+
+.main-header {
+	margin-bottom: 10px;
+}
+
+.button {
+	background: black;
+	color: purple;
+	padding: 10px 25px;
+    border: 5px purple solid;
+}
+
+.button:hover {
+	background: white;
+	color: purple;
+    border: 5px purple solid
+}
+
+#main-menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+	
+.showcase {
+      background: black;
+	  padding: 300px;
+	  margin-bottom: 10px;
+	  border: 10px purple solid;
+	  background-image: url(../images/0.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+
+
+.main-article {
+	padding: 20px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 2fr 1fr;
+                
+}
+	
+.left-article {
+	padding: 0 35px;
+	background: black;
+	color: purple;
+	display: grid;
+    border: 5px purple solid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.left-article img {
+	padding: 45px 0 0 15px;
+}
+
+.left-article p {
+	margin:40px 0 60px;
+	text-align: center;
+	font-family: Verdana;
+}
+
+.left-article h3 {
+	margin: 30px
+}
+
+.right-article {
+	background: black;
+	color: purple;
+	padding: 50px;
+    border: 5px purple solid;
+}
+
+.right-article p {
+	margin:40px 0 60px;
+	text-align: center;
+	font-family:Verdana
+}
+
+.right-article h4 {
+	margin: 30px
+}
+
+.footer {
+      background: black;
+      border: 5px purple solid;
+	  padding: 2px;
+	  text-align: center;
+	  color: purple;
+}
+
+
